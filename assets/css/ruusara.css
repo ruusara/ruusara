@@ -11225,17 +11225,44 @@ pre {
 .header {
   height: 100vh;
   max-height: 900px;
-  background: url(../imgs/main.jpg) no-repeat center center fixed;
+  background: url(../imgs/main.jpeg) no-repeat center center fixed;
   background-size: cover;
   min-height: 750px;
 }
 
-.dubbing{
-	background: url(../imgs/gallary-13.jpg) no-repeat center center fixed;
+@media (max-width: 450px){
+	.header{
+		background: url(../imgs/mainm.jpeg) no-repeat center center fixed;
+	}
 }
 
+.dubbing{
+	background: url(../imgs/event1.jpg) no-repeat center center fixed;
+}
+
+@media (max-width:450px){
+	.dubbing{
+		background: url(../imgs/maind.jpg) no-repeat top center fixed;
+	}
+}
 .comic{
-	background: url(../imgs/gallary-12.jpg) no-repeat center center fixed;
+	background: url(../imgs/event3.jpg) no-repeat center center fixed;
+}
+
+@media (max-width:450px){
+	.comic{
+		background: url(../imgs/mainc.jpg) no-repeat top center fixed;
+	}
+}
+
+.photom{
+	background: url(../imgs/event2.jpg) no-repeat center center fixed;
+}
+
+@media (max-width:450px){
+	.photom{
+		background: url(../imgs/mainp.jpg) no-repeat top center fixed;
+	}
 }
 
 .header .overlay {
@@ -11298,7 +11325,7 @@ pre {
 }
 
 .has-img-bg {
-  background: url(../imgs/about-section.jpg) no-repeat center center;
+  background: url(../imgs/about-section.jpeg) no-repeat center center;
   background-size: cover;
 }
 
@@ -11313,7 +11340,7 @@ pre {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url(../imgs/book-table-img.jpg) no-repeat center center fixed;
+  background: url(../imgs/mainf.jpeg) no-repeat center center fixed;
   background-size: cover;
   z-index: -1;
   opacity: .3;
